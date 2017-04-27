@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "lookupIntent",
+      "samples": [
+        "who is {first_name}",
+        "tell me about {first_name}",
+        "{first_name}",
+        "does {first_name} work here"
+      ],
+      "slots": [
+        {
+          "name": "first_name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "AMAZON.US_FIRST_NAME",
+      "values": [
+        {
+          "name": {
+            "value": "Chyanne"
+          }
+        },
+{
+          "name": {
+            "value": "Roshni"
+          }
+        },
+{
+          "name": {
+            "value": "Shivani"
+          }
+        },
+{
+          "name": {
+            "value": "Akshay"
+          }
+        },
+{
+          "name": {
+            "value": "Pranav"
+          }
+        },
+{
+          "name": {
+            "value": "Ashika"
+          }
+        },
+{
+          "name": {
+            "value": "Kai"
+          }
+        },
+{
+          "name": {
+            "value": "Imran"
+          }
+        },
+{
+          "name": {
+            "value": "Saira"
+          }
+        },
+{
+          "name": {
+            "value": "Anu"
+          }
+        },
+{
+          "name": {
+            "value": "Renu"
+          }
+        },
+{
+          "name": {
+            "value": "Ben"
+          }
+        },
+{
+          "name": {
+            "value": "Giri"
+          }
+        },
+{
+          "name": {
+            "value": "Ruba"
+          }
+        },
+{
+          "name": {
+            "value": "Sri"
+          }
+        },
+{
+          "name": {
+            "value": "Krishnan"
+          }
+        },
+{
+          "name": {
+            "value": "Lary"
+          }
+        },
+{
+          "name": {
+            "value": "Ross"
+          }
+        },
+{
+          "name": {
+            "value": "Alice"
+          }
+        },
+{
+          "name": {
+            "value": "Arun"
+          }
+        },
+{
+          "name": {
+            "value": "Alex"
+          }
+        },
+{
+          "name": {
+            "value": "Volker"
+          }
+        },
+{
+          "name": {
+            "value": "Steve"
+          }
+        },
+{
+          "name": {
+            "value": "Jessica"
+          }
+        },
+{
+          "name": {
+            "value": "Govind"
+          }
+        }
+      ]
+    }
+  ]
+}
